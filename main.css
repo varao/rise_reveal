@@ -40,6 +40,12 @@
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   overflow: hidden;
 }
+
+/* Vinayak */
+.reveal code {
+      font-family: "inconsolata", "FreeMono", courier, monospace;
+    }
+
 .rise-enabled .reveal section img {
   -webkit-transition-property: all;
           transition-property: all;
@@ -202,9 +208,15 @@
           transition-duration: 0.2s;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
-  margin-top: 0.05em;
+ /* margin-top: 0.05em;*/
+  width: 1500px;
   /* Vinayak */      
   font-size: 140%;
+  font-family: "inconsolata", "FreeMono", courier, monospace;
+/*  background-color: #f8f8f8;*/
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-weight: 500;
 }
   /* Vinayak:
    * To make code wider, shift it left and remove shadow
@@ -229,12 +241,20 @@
 
   /* Vinayak */      
   font-size: 160%;
+  font-family: "inconsolata", "FreeMono", courier, monospace;
+  font-weight: 500;
 }
 .rise-enabled a.anchor-link {
   display: none;
 }
 .rise-enabled html {
   overflow-y: auto;
+}
+hr {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 2px solid #222222;
 }
 .rise-enabled .dialog kbd {
   padding: .1em .6em;
@@ -250,6 +270,13 @@
   line-height: 1.4;
   white-space: nowrap;
 }
+
+/* Vinayak */
+.rise-enabled td, 
+.rise-enabled th {
+  padding:15px;
+}
+
 .rise-enabled #header {
   -webkit-transition-property: all;
           transition-property: all;
